@@ -14,7 +14,7 @@ class KijijiScrapper:
 
     def __init__(self, link: str):
         self.link = link
-        self.page = 1
+        self._page = 1
         self._create_link()
 
     def _create_link(self):
